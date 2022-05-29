@@ -60,3 +60,12 @@ git diff
 
 14) to show that staged and uncommitted changes we use command as \ 
 git diff --staged
+
+15) suppose you want to store your work in back and donot count in commit and when you want to get it you can get this so type command \
+git add . \
+git stash \
+** Now if you want to back this work type command** \
+git stash pop \
+** but if you type -- git stash clear -- than you will never get that ** \
+
+
