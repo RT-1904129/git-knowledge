@@ -16,10 +16,10 @@ to set automatic command line coloring for Git for easy reviewing
 There are several cloud-based repository hosting services which let you maintain a copy of repositry
 - Github
 - Bitbucket \
-2)we can do Trunk based devlopment. In mac it already install but for windows we need to downlode git base.\
-3)github,gitlab,Bitbucket are git profarmer options. \
+2) we can do Trunk based devlopment. In mac it already install but for windows we need to downlode git base.\
+3) github,gitlab,Bitbucket are git profarmer options. \
 ###############  Git commands on git base ################\
-1)for making clone(making same copy of it) of any github reprository use---\
+1) for making clone(making same copy of it) of any github reprository use---\
 git clone (repo path but donot put braket like this)\
 2) for adding changes on github repro which you made on clone copy simentenously use three commandas one after one----\
 3) Firstly we need to added the changes in staging area by this command we are adding changes in staging area. \
@@ -31,12 +31,20 @@ iii)git push -u origin (branch name in which you want to do change but donot put
 git pull origin (branch name in which changes happen don't put bracket like this main or master)\
 4) If you want to know that in which branch you are present know use this command---\
 git branch \
-5) If you want to create a new branch(but your are present stay at old branch you are not directly went to new created branch) (but you are able to see those branches on github when you type all command give in -2) after creating new branche because this created branches is local initally you need to make it global by typing -2)  all three commandes than it directly shows all changes in your new created branches itself )use this command-----\
+
+5) If you want to create a new branch(but your are present stay at old branch you are not directly went to new created branch) but this craeted brach is locally created in your system you need to make it globally) \
 git branch (new branch name don't put bracket like this)\
+than type command --- \
+git checkout (branch name) \
+git push -u origin branchname
+
 6) If you want to move from current branch to another branch than use this command as-----\
 git checkout (branch name but don't put the bracket like this)\
 7) If you want to creat a new branch and you want simentenously move to that newly created particular branch than use this command-----\
-git checkout -b(new branch name but don,t put bracket like this there)\
+git checkout -b (new branch name but don,t put bracket like this there)\
+for making it global(remote server) we will type command as \ 
+git push -u origin branchname 
+
 8) If you want to check status of current status  git kernal than use this command---- \
 git status
 9) to know from which website we clone the things in git repositry type command as------\ 
@@ -45,7 +53,7 @@ git remote -v
 git init
 11) we can be configure a remote repositry to local **repositry** (that file should be in git formate eans initalize with git )  by command as \
 git remote add origin URL
-12) Command to list all commits
+12) Command to list all commits --\
  git log 
  
 Output:- 
@@ -67,5 +75,20 @@ git stash \
 ** Now if you want to back this work type command** \
 git stash pop \
 ** but if you type -- git stash clear -- than you will never get that ** \
-
+16) To delete any branch type command --- \
+git branch -D <branch name> 
+17) git fetch + git merger == git pull
+ 
+ 18) how to merge brach in main
+ git merge (branch name)
+ 
+ 19) Rebasing do much clean  branch history adding all brach in one branch \
+ git rebase (actual branch)
+ 
+ 20) how to uptodate our main repositry from remote repositry of any forked project (firstly go in main branch) \
+ git rest --hard upastream/main \
+ git push origin main \
+ 
+ - And we can do it by **git pull upstream main**
+ 
 
