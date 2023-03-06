@@ -91,4 +91,8 @@ git branch -D <branch name>
  
  - And we can do it by **git pull upstream main**
  
-
+21) how to see all your previous commit History \
+ git reflog \
+ Undoing Committed Changes (Git Reset)
+ Link ->https://www.cloudbees.com/blog/git-undo-commit
+ 
