@@ -98,6 +98,6 @@ git branch -D <branch name>
  Link ->https://www.cloudbees.com/blog/git-undo-commit
  
 23) git command to add remote repositry \
- git remote add origin git-repositry-url
+ git remote add origin git-repository-url
 24) git command to add changes in previous commit is  \
   git commit --amend
