@@ -93,6 +93,11 @@ git branch -D <branch name>
  
 21) how to see all your previous commit History \
  git reflog \
- Undoing Committed Changes (Git Reset)
+22)Undoing Committed Changes (Git Reset)
+ git reset --hard <commitID> \
  Link ->https://www.cloudbees.com/blog/git-undo-commit
  
+23) git command to add remote repositry \
+ git remote add origin <git repositry url>
+24) git command to add changes in previous commit is  \
+  git commit --amend
